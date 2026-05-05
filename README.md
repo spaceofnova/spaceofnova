@@ -14,7 +14,6 @@ const nova = {
 
 ### 🛠️ What I'm Working On
 
-*   **Project Delta:** An precision-focused hour tracking application designed for productivity.
 *   **Synapse:** A modern communication platform built with a focus on architecture and scalability.
 *   **SkillsUSA Robotics:** Designing high-efficiency intake systems and programming drivetrains using **C++**, **PROS**, and **EZ-Template**.
 
@@ -23,7 +22,7 @@ const nova = {
 ### 🏆 Achievements
 
 *   🥇 **1st Place** – SkillsUSA State (Mobile Robotics)
-*   🥇 **1st Place** – State Super Smash Bros Tournament
+*   🥇 **1st Place** – Esports State Super Smash Bros Tournament
 *   🏅 **5th Place** – SkillsUSA Nationals (Mobile Robotics)
 
 ---
@@ -53,10 +52,3 @@ const nova = {
 ---
 
 > "If it’s not automated, it’s not finished." — *Likely a Satisfactory player.*
-
----
-
-### How to use this:
-1.  Go to your GitHub and create a new repository named **spaceofnova**.
-2.  Make sure it is **Public** and check **Initialize this repository with a README**.
-3.  Paste the code above into the `README.md` file.
