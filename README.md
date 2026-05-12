@@ -14,7 +14,7 @@ const nova = {
 
 ### 🛠️ What I'm Working On
 
-*   **Synapse:** A modern communication platform built with a focus on architecture and scalability.
+*   **Astrium:** A modern communication platform built with a focus on architecture and scalability.
 *   **SkillsUSA Robotics:** Designing high-efficiency intake systems and programming drivetrains using **C++**, **PROS**, and **EZ-Template**.
 
 ---
@@ -46,9 +46,8 @@ const nova = {
 
 ### 📫 Get in Touch
 
-*   **Email:** [mail.spaceofnova@gmail.com](mailto:mail.spaceofnova@gmail.com)
-*   **Discord:** `spaceofnova`
+*   **Email:** [work.spaceofnova@gmail.com](mailto:mail.spaceofnova@gmail.com)
 
 ---
 
-> "If it’s not automated, it’s not finished." — *Likely a Satisfactory player.*
+> "If it’s not automated, it’s not finished." — *Satisfactory player.*
