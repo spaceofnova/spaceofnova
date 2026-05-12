@@ -1,17 +1,94 @@
 ---
-
+import "../app.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Google Fonts: Parkinsans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>spaceofnova.dev</title>
+  </head>
+  <body>
+    <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h1>Hi, I'm Nova!</h1>
+          <p class="bio">
+            A full-stack developer with a desire to fix things that probably
+            don't need fixed.
+          </p>
+          <p class="location">🇺🇸 Missouri, United States</p>
+        </div>
+      </section>
+
+      <section id="work">
+        <p class="section-label">Current Focus</p>
+        <div class="main-project">
+          <h2 class="title" data-pronounce="as-tree-um">Astrium</h2>
+          <p class="desc">
+            A user-focused, lightning-fast communication platform.
+          </p>
+          <p class="date">2024 - Present</p>
+          <p class="full-desc">
+            Astrium is a real-time communication tool built to be snappy and
+            simple. I’ve spent the last year and a half optimizing state
+            management and backend logic to ensure the experience remains
+            seamless, regardless of load. Built for speed without the
+            unnecessary bloat.
+          </p>
+          <div class="tech">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Convex</span>
+            <span>TanStack</span>
+          </div>
+        </div>
+
+        <p class="section-label">Other Projects</p>
+        <div id="projects">
+          <div class="project-card">
+            <h3 class="proj-title" data-pronounce="del-tuh">Delta</h3>
+            <p class="proj-desc">
+              A progressive web app for high-precision hour tracking with
+              background persistence and a clean UI.
+            </p>
+            <a href="https://github.com/spaceofnova" class="gh-link"
+              >View Source</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3 class="proj-title" data-pronounce="V-5-R-C">V5RC Robotics</h3>
+            <p class="proj-desc">
+              Custom C++ templates and Google Apps Script automation for
+              engineering notebooks and competitive performance.
+            </p>
+            <a href="https://github.com/spaceofnova" class="gh-link"
+              >View Source</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://github.com/spaceofnova">GitHub</a>
+        <a href="mailto:nova@spaceofnova.dev">Email</a>
+      </div>
+      <p class="footer-copy">2026 | spaceofnova</p>
+    </footer>
+  </body>
 </html>

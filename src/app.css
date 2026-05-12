@@ -1,0 +1,240 @@
+:root {
+  --text: #f0eaf0;
+  --background: #181117;
+  --primary: #c6aec2;
+  --secondary: #5c424f;
+  --accent: #34d399; /* Emerald */
+  --border: #f0eaf0;
+  --card-bg: #241a23;
+  --shadow-size: 4px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #150f15;
+    --background: #eee7ed;
+    --primary: #51394d;
+    --secondary: #bda3b0;
+    --accent: #10b981; /* Emerald Light */
+    --border: #000000;
+    --card-bg: #ffffff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background-color: var(--background);
+  font-family: "Parkinsans", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global Links */
+a {
+  color: var(--text);
+  text-decoration-color: var(--accent);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* Layout - Mobile First */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem;
+  max-width: 100%;
+}
+
+#hero {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--border);
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.1;
+  color: var(--accent);
+}
+
+.bio {
+  font-size: 1.1rem;
+  max-width: 400px;
+}
+
+.location {
+  font-weight: 700;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.section-label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary);
+  margin: 2rem 0 1rem;
+}
+
+/* Cards & Content */
+.main-project,
+.project-card {
+  background: var(--card-bg);
+  border: 3px solid var(--border);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-size) var(--shadow-size) 0px var(--border);
+  margin-bottom: 1.5rem;
+  transition: transform 0.1s ease;
+}
+
+.main-project:hover,
+.project-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: calc(var(--shadow-size) + 2px) calc(var(--shadow-size) + 2px) 0px
+    var(--accent);
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: inline-block;
+  background: var(--accent);
+  color: var(--background);
+  padding: 0 0.4rem;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border: 2px solid var(--border);
+  background: var(--secondary);
+  color: var(--text);
+}
+
+.gh-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 800;
+  border-bottom: 3px solid var(--accent);
+  margin-top: 1rem;
+}
+
+.gh-link:hover {
+  background: var(--accent);
+  color: var(--background) !important;
+}
+
+/* Footer */
+footer {
+  padding: 3rem 1.5rem;
+  border-top: 3px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-links a:hover {
+  border-bottom: 2px solid var(--accent);
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* Desktop Layout Overrides */
+@media (min-width: 768px) {
+  :root {
+    --shadow-size: 6px;
+  }
+
+  main {
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    align-items: flex-start;
+  }
+
+  #hero {
+    flex: 1;
+    position: sticky;
+    top: 5rem;
+    border-bottom: none;
+    border-right: 3px solid var(--border);
+    padding-bottom: 0;
+    padding-right: 3rem;
+  }
+
+  #work {
+    flex: 1.5;
+    padding-left: 2rem;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 5rem;
+    padding: 2rem;
+  }
+}
+
+.title::after,
+.proj-title::after {
+  /* Wraps the attribute text in parentheses */
+  content: "(" attr(data-pronounce) ")";
+
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent); /* Uses emerald for the pronunciation */
+  font-family: "Parkinsans", sans-serif;
+  text-transform: lowercase;
+  margin-top: 0.1rem;
+  opacity: 0.9;
+}
+
+/* Adjusting the main project title specifically for better spacing */
+.main-project .title {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* Making sure the project card titles don't get too crowded */
+.project-card .proj-title {
+  margin-bottom: 0.25rem;
+}
