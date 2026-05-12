@@ -1,43 +1,54 @@
-# Astro Starter Kit: Minimal
+## 🚀 Nova Space | Full-Stack Developer & Robotics Engineer
 
-```sh
-pnpm create astro@latest -- --template minimal
+```typescript
+const nova = {
+  pronouns: "He / Him",
+  location: "Missouri, USA",
+  status: "Optimizing robots & building the web",
+  currentStack: ["React", "TypeScript", "Vite", "Nitro", "Convex"],
+  hobbies: ["Mechanical Design", "Competitive Gaming", "PC Maintenance"]
+};
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+### 🛠️ What I'm Working On
 
-Inside of your Astro project, you'll see the following folders and files:
+*   **Synapse:** A modern communication platform built with a focus on architecture and scalability.
+*   **SkillsUSA Robotics:** Designing high-efficiency intake systems and programming drivetrains using **C++**, **PROS**, and **EZ-Template**.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### 🏆 Achievements
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+*   🥇 **1st Place** – SkillsUSA State (Mobile Robotics)
+*   🥇 **1st Place** – Esports State Super Smash Bros Tournament
+*   🏅 **5th Place** – SkillsUSA Nationals (Mobile Robotics)
 
-Any static assets, like images, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+### ⚙️ Tech & Tools
 
-All commands are run from the root of the project, from a terminal:
+| Category | Tools |
+| :--- | :--- |
+| **Frontend** | React, TypeScript, Vite, Tailwind CSS |
+| **Backend/DB** | Convex, Nitro, Node.js |
+| **Engineering** | C++, PROS, EZ-Template, Network Engineering |
+| **Systems** | Windows, Linux, Vite Configs |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+### 📊 GitHub Stats
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![Nova's GitHub stats](https://github-readme-stats.vercel.app/api?username=spaceofnova&show_icons=true&theme=tokyonight)
+
+---
+
+### 📫 Get in Touch
+
+*   **Email:** [mail.spaceofnova@gmail.com](mailto:mail.spaceofnova@gmail.com)
+*   **Discord:** `spaceofnova`
+
+---
+
+> "If it’s not automated, it’s not finished." — *Likely a Satisfactory player.*
