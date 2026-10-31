@@ -1,25 +1,25 @@
-## 🚀 Nova Space | Full-Stack Developer & Robotics Engineer
+## Nova Knauber | Web-dev and Robotics
 
 ```typescript
 const nova = {
-  pronouns: "He / Him",
+  pronouns: "He / They",
   location: "Missouri, USA",
-  status: "Optimizing robots & building the web",
-  currentStack: ["React", "TypeScript", "Vite", "Nitro", "Convex"],
+  status: trying to sleep and sometimes dev-ving the web",
+  currentStack: ["React", "TypeScript", "Vite", "Astro", "Convex"],
   hobbies: ["Mechanical Design", "Competitive Gaming", "PC Maintenance"]
 };
 ```
 
 ---
 
-### 🛠️ What I'm Working On
+### Current Projects
 
 *   **Astrium:** A modern communication platform built with a focus on architecture and scalability.
-*   **SkillsUSA Robotics:** Designing high-efficiency intake systems and programming drivetrains using **C++**, **PROS**, and **EZ-Template**.
+*   **SkillsUSA Robotics:** Designing high-efficiency intake systems and programming drivetrains using **C++** and **Pros**.
 
 ---
 
-### 🏆 Achievements
+### Awards
 
 *   🥇 **1st Place** – SkillsUSA State (Mobile Robotics)
 *   🥇 **1st Place** – Esports State Super Smash Bros Tournament
@@ -27,7 +27,7 @@ const nova = {
 
 ---
 
-### ⚙️ Tech & Tools
+### Tools I Use
 
 | Category | Tools |
 | :--- | :--- |
@@ -38,7 +38,7 @@ const nova = {
 
 ---
 
-### 📊 GitHub Stats
+### Stats
 
 ![Nova's GitHub stats](https://github-readme-stats.vercel.app/api?username=spaceofnova&show_icons=true&theme=tokyonight)
 
@@ -46,8 +46,8 @@ const nova = {
 
 ### 📫 Get in Touch
 
-*   **Email:** [work.spaceofnova@gmail.com](mailto:mail.spaceofnova@gmail.com)
+*   **Email:** [work@spaceofnova.dev](mailto:work@spaceofnova.dev)
 
 ---
 
-> "If it’s not automated, it’s not finished." — *Satisfactory player.*
+> "It worked on the first build (lies)*
