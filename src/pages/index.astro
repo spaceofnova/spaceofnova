@@ -1,60 +1,41 @@
 ---
-import "../app.css";
+import DefualtEmpty from "../layouts/DefualtEmpty.astro";
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="generator" content={Astro.generator} />
-
-        <!-- Google Fonts: Parkinsans -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300..800&display=swap"
-            rel="stylesheet"
-        />
-
-        <title>spaceofnova.dev</title>
-    </head>
-    <body>
-        <main>
-            <section id="hero">
-                <h1>I'm Nova</h1>
-                <p>This is what I'm working on.</p>
-            </section>
-
-            <section id="work">
-                <a href="https://github.com/AstriumHQ/web" target="_blank">
-                    [Astrium HQ] Astrium Web (View Source)
+<DefualtEmpty>
+    <main>
+        <section class="card card-sm blog hidden">
+            <a href="/blog">NEW: Check out the Blog.</a>
+        </section>
+        <section class="card">
+            <h1>I'm Nova</h1>
+            <p>This is what I'm working on.</p>
+            <a href="https://github.com/AstriumHQ/web" target="_blank">
+                [Astrium HQ] Astrium Web (View Source)
+            </a>
+            <a href="https://github.com/AstriumHQ/native" target="_blank">
+                [Astrium HQ] Astrium Native (View Source)
+            </a>
+            <a href="https://github.com/spaceofnova/sysinfo" target="_blank">
+                sysinfo (View Source)
+            </a>
+            <a
+                href="https://github.com/spaceofnova/spaceofnova"
+                target="_blank"
+            >
+                This website (View Source)
+            </a>
+        </section>
+        <section class="card card-sm footer">
+            <div>
+                <a href="https://github.com/spaceofnova" target="_blank">
+                    GitHub
                 </a>
-                <a href="https://github.com/AstriumHQ/native" target="_blank">
-                    [Astrium HQ] Astrium Native (View Source)
+                <a href="mailto:work@spaceofnova.dev" target="_blank">
+                    Email
                 </a>
-                <a
-                    href="https://github.com/spaceofnova/sysinfo"
-                    target="_blank"
-                >
-                    sysinfo (View Source)
-                </a>
-                <a
-                    href="https://github.com/spaceofnova/spaceofnova"
-                    target="_blank"
-                >
-                    This website (View Source)
-                </a>
-            </section>
-        </main>
-
-        <footer>
-            <div class="footer-links">
-                <a href="https://github.com/spaceofnova">GitHub</a>
-                <a href="mailto:work.spaceofnova@gmail.com">Email</a>
             </div>
-            <p class="footer-copy">2026 | spaceofnova</p>
-        </footer>
-    </body>
-</html>
+            <p>2026 | spaceofnova</p>
+        </section>
+    </main>
+</DefualtEmpty>
